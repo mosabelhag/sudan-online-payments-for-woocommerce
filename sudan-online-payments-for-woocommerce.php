@@ -4,15 +4,15 @@
  * Plugin URI:  https://github.com/mosabelhag/sudan-online-payments-for-woocommerce
  * Description: Allow customers to pay via Sudanese Bank Transfer and upload a receipt.
  * Version:     1.0.0
- * Author:      mousab elhag
+ * Author:      MosabElhag
  * Author URI:  https://mousab.com
  * Text Domain: sudan-online-payments-for-woocommerce
  * Domain Path: /languages
  * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- *
  * Requires at least: 5.8
  * Requires PHP:      7.4
+ * Requires Plugins: woocommerce
  * WC requires at least: 6.0
  */
 

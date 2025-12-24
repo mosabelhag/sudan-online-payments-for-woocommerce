@@ -1,6 +1,6 @@
 === Sudan Online Payments for WooCommerce ===
-Contributors: mousabelhag
-Tags: woocommerce, sudan, payment gateway, bank transfer, receipt upload, bankak, o-cash
+Contributors: mosabelhag
+Tags: woocommerce, sudan, payment gateway, bank transfer, receipt upload
 Requires at least: 5.8
 Tested up to: 6.9
 Stable tag: 1.0.0
@@ -10,15 +10,15 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 🚩 **Important Notice:** This is an **unofficial, independently developed** plugin. It is not affiliated with, endorsed by, or connected to any specific Sudanese bank, payment service (like Bankak or O-Cash), or financial company.
 
-Accept payments via Sudanese Bank Transfers (Bankak, O-Cash, etc.) with receipt upload and validation.
+Accept Sudanese bank transfers (Bankak, O-Cash, etc.) and validate uploaded payment receipts.
 
 == Description ==
 
-**Sudan Online Payments for WooCommerce** is an **unofficial, community-oriented** payment gateway designed to facilitate manual bank transfers for stores targeting customers in Sudan.
+**Sudan Online Payments for WooCommerce** is an **unofficial** gateway that facilitates **manual** bank transfers for the Sudanese market.
 
-This plugin allows store owners to display their local bank or mobile money account details (for services like Bankak, O-Cash, Fawry, etc.) on the checkout page. Customers can then upload a payment receipt screenshot to complete their order, streamlining a common payment method in the region.
+It allows store owners to display their local bank or mobile money details (e.g., Bankak, O-Cash) at checkout. Customers complete their order by uploading a screenshot of their payment receipt for validation.
 
-**This plugin provides a bridge for a manual process. It does not automatically process payments. All transactions require merchant verification.**
+**Important:** This plugin **does not process payments automatically**. It streamlines the manual transfer process, but all transactions require merchant verification of the uploaded receipt.
 
 **Key Features:**
 
