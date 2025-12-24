@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sudan Online Payments for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://mousab.com\n"
+"Last-Translator: Mousab Elhag <mousab@example.com>\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-12-13T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Domain: Sudan Online Payments-for-woocommerce\n"
+
+#: Sudan Online Payments-woocommerce.php:20
+msgid "Sudan Online Payments for WooCommerce"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:20
+msgid "Sudan Online Payments"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:21
+msgid "Accept payments via Sudanese Bank Transfers with receipt upload."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:127
+msgid "Bank Name"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:128
+msgid "Account Name"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:129
+msgid "Account Number"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:130
+msgid "Branch"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:131
+msgid "Phone"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:143
+msgid "+ Add Account"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:144
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:194
+msgid "Select a Bank Account to Transfer:"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:229
+msgid "Name:"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:234
+msgid "Account:"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:237
+msgid "Copy"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:239
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:245
+msgid "Phone:"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:256
+msgid "Upload Receipt (Image Only)"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:267
+msgid "Uploading..."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:271
+msgid "Receipt Uploaded Successfully"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:274
+msgid "Remove / Change"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:279
+msgid "Please upload a clear image (JPG/PNG) of the bank transfer receipt."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:288
+msgid "No file uploaded."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:295
+msgid "File is too large. Max size 5MB."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:306
+msgid "Invalid file type. Only JPG and PNG images are allowed."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:337
+msgid "Awaiting Sudan Online Payments payment confirmation."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:359
+msgid "Please upload your payment receipt before placing the order."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:374
+msgid "Payment Receipt"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:379
+msgid "View Full Height"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:403
+msgid "Click to view full size"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:406
+msgid "Click image to view full size"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:446
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:448
+msgid "Enable Sudan Online Payments"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:452
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:454
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:455
+msgid "Bank Transfer (Sudan)"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:459
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:461
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:462
+msgid "Make your payment directly into our bank account. Please upload your receipt."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:466
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:468
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: includes/class-wc-gateway-Sudan Online Payments.php:483
+msgid "Enter the bank account details users can send money to."
+msgstr ""

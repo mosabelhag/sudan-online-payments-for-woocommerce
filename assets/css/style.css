@@ -1,0 +1,309 @@
+/* sudan-online-payments-for-woocommerce/assets/css/style.css */
+
+/* --- Container & General --- */
+.sudan-online-payments-accounts-display {
+    background: #fdfdfd;
+    border: none;
+    padding: 6px;
+    margin-bottom: 25px;
+}
+
+.sudan-online-payments-accounts-display h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #444;
+    font-weight: 600;
+}
+
+/* --- Card Grid --- */
+.sudan-online-payments-accounts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+/* --- Account Card --- */
+.sudan-online-payments-account-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.sudan-online-payments-account-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-color: #d1d1d1;
+}
+
+/* --- Card Header --- */
+.sudan-online-payments-card-header {
+    background: #f7f9fc;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.sudan-online-payments-card-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.sudan-online-payments-card-header img {
+    margin-right: 10px !important;
+    margin-left: 5px !important;
+}
+
+.sudan-online-payments-card-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* --- Card Body --- */
+.sudan-online-payments-card-body {
+    padding: 15px;
+}
+
+.sudan-online-payments-detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #555;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sudan-online-payments-detail-row:last-child {
+    margin-bottom: 0;
+}
+
+.sudan-online-payments-detail-row .label {
+    font-weight: 500;
+    color: #888;
+    margin-right: 5px;
+}
+
+.sudan-online-payments-detail-row .value {
+    color: #333;
+    text-align: right;
+    word-break: break-all;
+    /* Ensure no overflow */
+}
+
+.sudan-online-payments-detail-row .value.number-font {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* --- Copy Button --- */
+.sudan-online-payments-detail-row.highlight {
+    background: #f0f7ff;
+    padding: 8px 10px;
+    margin: 5px -10px 10px -10px;
+    border-radius: 4px;
+    border: 1px dashed #cce0ff;
+}
+
+.sudan-online-payments-copy-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+}
+
+.sudan-online-payments-copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0073aa;
+    padding: 4px;
+    margin-left: 8px;
+    border-radius: 4px;
+    line-height: 0;
+    transition: background 0.2s;
+    outline: none;
+}
+
+.sudan-online-payments-copy-btn:hover {
+    background: #e1f0fa;
+    color: #005177;
+}
+
+/* Tooltip */
+.sudan-online-payments-copy-btn .sudan-online-payments-tooltip {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    z-index: 99;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 10px;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+.sudan-online-payments-copy-btn .sudan-online-payments-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.sudan-online-payments-copy-btn.copied .sudan-online-payments-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* --- Upload Styles --- */
+.sudan-online-payments-upload-container {
+    margin: 15px 0;
+    padding: 20px 10px;
+    background: #f8fbfd;
+    border: 2px dashed #a0ccdb;
+    border-radius: 8px;
+    text-align: center;
+    transition: border-color 0.2s;
+
+    /* FIX OVERFLOW: Use auto width and border-box */
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    /* contain huge images if previews break out */
+}
+
+.sudan-online-payments-upload-container * {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.sudan-online-payments-upload-container:hover {
+    border-color: #007cba;
+}
+
+.sudan-online-payments-upload-status {
+    color: #0073aa;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* --- Admin WP Settings --- */
+#sudan-online-payments-accounts-wrapper table.wc_input_table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    width: 100%;
+}
+
+#sudan-online-payments-accounts-wrapper table.wc_input_table th {
+    padding: 10px;
+}
+
+#sudan-online-payments-accounts-wrapper table.wc_input_table thead th {
+    background: transparent;
+    color: #444;
+    font-weight: 600;
+    border-bottom: 2px solid #ccc;
+    text-align: left;
+}
+
+#sudan-online-payments-accounts-wrapper table.wc_input_table tbody td {
+    background: #fff;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+#sudan-online-payments-accounts-wrapper table.wc_input_table tbody tr td:first-child {
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#sudan-online-payments-accounts-wrapper table.wc_input_table tbody tr td:last-child {
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Admin Bank Select Wrapper */
+.sudan-online-payments-admin-bank-select-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* space between icon and select */
+}
+
+
+/* Force small size for icons */
+/* Force small size for icons */
+img.sudan-online-payments-admin-bank-icon {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 2px;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #fff;
+    display: block;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.sudan-online-payments-admin-bank-select-wrapper select {
+    flex: 1;
+    min-width: 0;
+    /* allows shrinking in flex container */
+    max-width: 100%;
+}
+
+/* Spinner */
+.spinner.is-active {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #007cba;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+img.sudan-online-payments-card-icon Specificity: (0, 1, 1) {
+    margin-left: 5px !important;
+}
