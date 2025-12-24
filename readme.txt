@@ -8,11 +8,11 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-🚩 **Important Notice:** This is an **unofficial, independently developed** plugin. It is not affiliated with, endorsed by, or connected to any specific Sudanese bank, payment service (like Bankak or O-Cash), or financial company.
-
-Accept Sudanese bank transfers (Bankak, O-Cash, etc.) and validate uploaded payment receipts.
+Accept Sudanese bank transfers (Bankak, O-Cash, etc.) and validate uploaded payment receipts manually.
 
 == Description ==
+
+🚩 **Important Notice:** This is an **unofficial, independently developed** plugin. It is not affiliated with, endorsed by, or connected to any specific Sudanese bank, payment service (like Bankak or O-Cash), or financial company.
 
 **Sudan Online Payments for WooCommerce** is an **unofficial** gateway that facilitates **manual** bank transfers for the Sudanese market.
 
