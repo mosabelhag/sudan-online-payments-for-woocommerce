@@ -1,5 +1,6 @@
 === Sudan Online Payments for WooCommerce ===
 Contributors: mosabelhag
+Donate link: https://mousab.com/support-me/
 Tags: woocommerce, sudan, payment gateway, bank transfer, receipt upload
 Requires at least: 5.8
 Tested up to: 6.9
@@ -62,8 +63,8 @@ Yes. The settings include a **"Custom Bank/Service"** option where you can speci
 
 == Screenshots ==
 
-1. Checkout Page - Displaying bank account cards and the receipt upload field.
-2. WooCommerce Settings - The configuration tab for adding and managing bank accounts.
+1. WooCommerce Settings - The configuration tab for adding and managing bank accounts.
+2. Checkout Page - Displaying bank account cards and the receipt upload field.
 3. Order Details - Viewing the uploaded customer receipt in the admin backend.
 
 == Changelog ==
