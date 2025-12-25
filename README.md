@@ -2,6 +2,11 @@
 
 **Accept payments via Sudanese Bank Transfers effortlessly.**
 
+🚩 **Important Notice:** This is an unofficial, independently developed plugin. It is not affiliated with, endorsed by, or connected to any specific Sudanese bank, payment service (like Bankak or O-Cash), or financial company.
+
+Sudan Online Payments for WooCommerce is an unofficial gateway that facilitates manual bank transfers for the Sudanese market.
+
+
 Sudan Online Payments for WooCommerce is a robust WooCommerce payment gateway designed specifically for the Sudanese market. It allows store owners to display their local bank account details (Bankak, O-Cash, Fawry, etc.) and requires customers to upload a payment receipt image during checkout. 
 
 This plugin streamlines the manual bank transfer process by validating receipt uploads, providing a user-friendly interface, and organizing order data for store admins.
@@ -82,6 +87,11 @@ This plugin relies on standard WooCommerce hooks which may not render correctly 
 -   Added support for major Sudanese payment apps.
 -   Implemented secure AJAX receipt upload.
 -   Added Arabic translations.
+
+## ☕ Support My Work
+
+If you find this plugin helpful, consider supporting its development:
+- **Donate**: [mousab.com/support-me](https://mousab.com/support-me/)
 
 ## 👤 Author
 

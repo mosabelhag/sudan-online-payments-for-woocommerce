@@ -21,16 +21,16 @@ It allows store owners to display their local bank or mobile money details (e.g.
 
 **Important:** This plugin **does not process payments automatically**. It streamlines the manual transfer process, but all transactions require merchant verification of the uploaded receipt.
 
-**Key Features:**
+**🚀 Key Features:**
 
 *   **Support for Popular Sudanese Services**: Pre-configured options for major banks and mobile money services:
-    *   Bankak (Bank of Khartoum)
-    *   O-Cash
-    *   Fawry (Faisal Islamic Bank)
-    *   SyberPay
-    *   MyCashi
-    *   Bravo
-    *   Custom Bank/Service
+    *   🏦 Bankak (Bank of Khartoum)
+    *   🏦 O-Cash
+    *   🏦 Fawry (Faisal Islamic Bank)
+    *   🏦 SyberPay
+    *   🏦 MyCashi
+    *   🏦 Bravo
+    *   🏦 Custom Bank/Service
 *   **Integrated Receipt Upload**:
     *   **AJAX-powered** upload without page reload.
     *   **Client-side Validation**: Accepts common image formats (JPG, PNG) with configurable size limits.
@@ -63,9 +63,9 @@ Yes. The settings include a **"Custom Bank/Service"** option where you can speci
 
 == Screenshots ==
 
-1. WooCommerce Settings - The configuration tab for adding and managing bank accounts.
-2. Checkout Page - Displaying bank account cards and the receipt upload field.
-3. Order Details - Viewing the uploaded customer receipt in the admin backend.
+1. WooCommerce Settings – The configuration tab for adding and managing bank accounts.
+2. Checkout Page – Displaying bank account cards and the receipt upload field.
+3. Order Details – Viewing the uploaded customer receipt in the admin backend.
 
 == Changelog ==
 
